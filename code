@@ -1,0 +1,6 @@
+import datetime
+
+x = datetime.datetime.now()
+day_year = x.strftime("%j")
+f = open('holiday.txt', 'w')
+f.read(1)
